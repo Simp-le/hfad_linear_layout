@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.LinearLayout.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/background</item>
+        <item name="backgroundTint">@color/button_background</item>
+    </style>
+
+    <style name="Widget.LinearLayout.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+</resources>
